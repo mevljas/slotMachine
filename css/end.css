@@ -1,0 +1,31 @@
+@font-face { 
+	font-family: 'Lobster';
+	src: url('../fonts/Lobster-Regular.ttf');
+} 
+body {
+  font-family: 'Lobster';
+  background-image: url("../images/casino.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+}
+#container{
+	position: relative;
+  min-width: 800px;
+  height: 900px;
+}
+
+#stats{
+	width: 40%;
+	background-color: #CEB789;
+	height: 30%;
+	position: absolute;
+	left: 30%;
+	top: 20%;
+	border-radius: 20px;
+	border: 10px ridge #ECCE75;
+	font-family: 'Lobster';
+  color: #A70303;
+  padding: 1%;
+  font-size: 22px;
+}
+
